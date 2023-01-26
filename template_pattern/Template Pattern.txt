@@ -1,0 +1,11 @@
+TEMPLATE  PATTERN: NOTE: I implemented the entire pattern on the same file- task.py
+
+There are basically TWO ways of Implementing this pattern. You can either use Inheritance Or Polymorphism.
+
+The Polymorphic approach brings us back to using the strategy pattern
+
+Template Method is a behavioral design pattern that allows you to define a skeleton of an algorithm in a base class
+and let subclasses override the steps without changing the overall algorithm’s structure.
+
+Identification: Template Method can be recognized if you see a method in base class that calls a bunch of other
+methods that are either abstract or empty.
